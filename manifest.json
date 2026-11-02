@@ -1,0 +1,20 @@
+{
+  "name": "Magis VOD",
+  "version": "1.0.0",
+  "description": "Catálogo Magis VOD para Nuvio: películas, series y animación. Home, Descubrir, búsqueda, meta completa y streams. Sesión automática vía seeds.",
+  "author": "xuper-plugin",
+  "scrapers": [
+    {
+      "id": "magis-vod",
+      "name": "Magis VOD",
+      "description": "Películas, series y animación desde el portal Magis. Home, filtros, búsqueda, temporadas completas y streams con subtítulos e intro skip.",
+      "version": "1.0.0",
+      "filename": "magis-vod.js",
+      "supportedTypes": ["movie", "tv", "anime", "series"],
+      "enabled": true,
+      "hasSettings": false,
+      "contentLanguage": ["es", "en"],
+      "formats": ["mp4", "ts"]
+    }
+  ]
+}
